@@ -4,5 +4,17 @@
     "precio": 666,
     "disponible": true,
     "img":"public/assets/images/image.png"
+  },
+  {
+    "nombre": "Sally Face",
+    "precio": 666,
+    "disponible": false,
+    "img":"public/assets/images/image.png"
+  },
+  {
+    "nombre": "Sally Face",
+    "precio": 666,
+    "disponible": true,
+    "img":"public/assets/images/image.png"
   }
 ]
