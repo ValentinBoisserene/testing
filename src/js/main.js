@@ -11,7 +11,7 @@ fetch('/public/assets/data/db.json')
       
       // Creamos un div para cada producto usando clases de Tailwind
       const tarjeta = document.createElement('div');
-      tarjeta.className = "p-4 bg-dark rounded-lg shadow-md border border-gray-200 m-2";
+      tarjeta.className = "p-4 bg-dark rounded-lg shadow-md border border-gray-200 m-2 w-fit";
 
       // Decidimos qué texto mostrar según la disponibilidad
       const estado = dato.disponible ? 'En stock' : 'Agotado';
@@ -21,6 +21,7 @@ fetch('/public/assets/data/db.json')
       tarjeta.innerHTML = `
         <h3 class="text-xl font-bold text-gray-800">${dato.nombre}</h3>
         <p class="text-gray-600">Precio: $${dato.precio}</p>
+        <img src="${dato.img}" alt="${dato.nombre}" class="w-fit h-48 object-cover rounded-md mb-4">
         <span class="text-sm font-semibold ${colorEstado}">${estado}</span>
       `;
 
