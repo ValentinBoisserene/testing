@@ -1,0 +1,5 @@
+[
+  { "nombre": "Teclado Mecánico", "precio": 85, "disponible": true },
+  { "nombre": "Ratón Gamer", "precio": 45, "disponible": false },
+  { "nombre": "Monitor 4K", "precio": 320, "disponible": true }
+]
