@@ -2,7 +2,7 @@
 const contenedor = document.getElementById('data-container');
 
 // 2. Hacemos la petición para leer el archivo JSON
-fetch('../../public/assets/data/db.json')
+fetch('public/assets/data/db.json')
   .then(response => response.json()) // Convierte el texto recibido directamente a un objeto/array de JS
   .then(datos => {
     
