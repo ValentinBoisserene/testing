@@ -3,6 +3,6 @@
     "nombre": "Sally Face",
     "precio": 666,
     "disponible": true,
-    "img":"public/assets/images/image.png"
+    "img":"../images/image.png"
   }
 ]
